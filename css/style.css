@@ -310,6 +310,9 @@ img {
 .footer-inner {
   display: flex;
   align-items: baseline;
+}
+
+.fotter-logoandp {
   margin-right: 120px;
 }
 
