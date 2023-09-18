@@ -307,6 +307,10 @@ img {
   /* flex-shrink: 0; */
 }
 
+.footer-inner {
+  display: flex;
+}
+
 .logo-fotter {
   display: inline-block;
   margin-bottom: 16px;
