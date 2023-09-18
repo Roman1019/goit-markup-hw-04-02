@@ -327,6 +327,40 @@ img {
   max-width: 264px;
   margin: 0;
 }
+
+.ullist-fotter {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.list-fotter {
+  width: 40px;
+  height: 40px;
+}
+
+.list-social-fotter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-logo);
+  border-radius: 50%;
+}
+
+.list-social-fotter:hover {
+  background-color: var(--c-header-active);
+}
+
+.list-social-fotter:active {
+  background-color: var(--c-header-active);
+}
+
+.list-icon-fotter {
+  fill: var(--c-text-footer);
+}
+
 .logo-accent-secondary {
   color: var(--c-text-footer);
   font-size: 18px;
