@@ -309,6 +309,8 @@ img {
 
 .footer-inner {
   display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .logo-fotter {
