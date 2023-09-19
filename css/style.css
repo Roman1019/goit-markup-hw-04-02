@@ -372,7 +372,7 @@ img {
   background-color: var(--c-fotter);
 }
 
-.list-social-fotter:active {
+.list-social-fotter:focus {
   background-color: var(--c-fotter);
 }
 
