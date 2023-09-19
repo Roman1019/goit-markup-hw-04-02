@@ -7,6 +7,7 @@
   --c-text-footer: #f4f4fd;
   --c-bg-thirt: #ffffff;
   --c-header: #e7e9fc;
+  --c-fotter: #31d0aa;
 }
 
 body {
@@ -349,7 +350,7 @@ img {
 .ullist-fotter {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .list-fotter {
@@ -368,11 +369,11 @@ img {
 }
 
 .list-social-fotter:hover {
-  background-color: var(--c-header-active);
+  background-color: var(--c-fotter);
 }
 
 .list-social-fotter:active {
-  background-color: var(--c-header-active);
+  background-color: var(--c-fotter);
 }
 
 .list-icon-fotter {
