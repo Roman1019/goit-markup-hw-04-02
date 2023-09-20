@@ -112,13 +112,13 @@ img {
 }
 
 .nav-link-style {
-  color: var(--c-brnd);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
   position: relative;
+  color: var(--c-header-active);
 }
 .nav-link-style:hover {
   color: var(--c-header-active);
