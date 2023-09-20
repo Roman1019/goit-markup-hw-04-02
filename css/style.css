@@ -282,6 +282,39 @@ img {
   margin: 0;
 }
 
+.list-icon-thirt {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.list-other-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.list-icon-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--c-logo);
+  border-radius: 50%;
+}
+
+.list-icon-style:hover {
+  background-color: var(--c-header-active);
+}
+
+.list-icon-style:focus {
+  background-color: var(--c-header-active);
+}
+
+.list-icon-instyle {
+  fill: var(--c-text-footer);
+}
+
 .bgcolor-for-myteam {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
