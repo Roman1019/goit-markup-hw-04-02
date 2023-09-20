@@ -253,8 +253,6 @@ img {
 .bgcolor-section-thirt {
   background-color: var(--c-text-footer);
   padding: 120px 0;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .bgcolor-for-team {
@@ -332,6 +330,8 @@ img {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--c-bg-thirt);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name-section-thirt {
