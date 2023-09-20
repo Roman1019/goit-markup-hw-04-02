@@ -8,6 +8,7 @@
   --c-bg-thirt: #ffffff;
   --c-header: #e7e9fc;
   --c-fotter: #31d0aa;
+  --c-logo-secondary: #8e8f99;
 }
 
 body {
@@ -208,6 +209,18 @@ img {
 .list-secondary {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+.icon-section-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--c-text-footer);
+  border: 1px solid var(--c-logo-secondary);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .main-text {
   color: var(--c-brnd);
   font-size: 20px;
