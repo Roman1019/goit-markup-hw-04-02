@@ -158,6 +158,7 @@ img {
 .main-section {
   background-color: var(--c-brnd);
   padding: 188px 0;
+  background-image: url(../images/people-office1.jpg);
   /* flex-shrink: 0; */
 }
 
