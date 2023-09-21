@@ -357,10 +357,6 @@ img {
 
 /* section-four */
 
-.product {
-  padding-bottom: 32px;
-}
-
 .product-image {
   position: relative;
   overflow: hidden;
@@ -375,7 +371,7 @@ img {
   transition: transform 1s;
 }
 
-.product:hover .product-overlay {
+.list-four:hover .product-overlay {
   transform: translateY(0);
 }
 
